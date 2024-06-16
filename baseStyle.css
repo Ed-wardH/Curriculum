@@ -36,7 +36,6 @@ perfeccionar apariencia del CORREO <input>
 }
 
 body{
-    /*margin: 3% 15%;*/
     font-size: medium;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,14 +49,16 @@ h1,h2,h3,h4{
 
 div{
     background-color: var(--block-color);
-    /*padding: 8px 2rem;
-    border-radius: 10px;*/
 }
 
 input{
     padding: 4px 8px 4px;
     border-radius: 7px;
     font-size:medium;
+}
+
+p{
+    padding-left: 4rem;
 }
 
 a{
@@ -76,6 +77,10 @@ a:visited{
     border-radius: 15px;
     border: 2px solid var(--border-btn);
     padding: 1px 8px 2px ;
+}
+
+.button_link:hover{
+    background-color: var(--border-btn);
 }
 
 .item_lang{
@@ -126,8 +131,13 @@ a:visited{
 }
 
 #img_copy{
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
+}
+
+#link_cv{
+    display: flex;
+    justify-content: center;
 }
 
 
