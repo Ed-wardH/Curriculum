@@ -1,0 +1,139 @@
+/*
+HACER TODOS LOS ELEMENTOS RELEVANTES A DISPLAY FLEX (MOBILE)
+
+Titulos diferente para cada nivel numerico <h1234>
+
+
+los elementos <i> seran iconos con texto descriptivo
+
+Elementos <a> seran links sin mostrar ya visitado y con apariencia de boton, se abrira el contenido en una nueva pestaña
+
+
+
+CUSTOMS
+perfeccionar apariencia del CORREO <input>
+*/
+:root{
+    --light2-palette: #FFCFA3;
+    --light1-palette: #F5B173;
+    --base-palette: #D38A47;
+    --dark1-palette: #B56B26;
+    --dark2-palette: #8F4B0D;
+
+    /* BASEPALLETE \\ BASE rgb=5E7FC6 \\ dist=22º \\ 3 elems*/
+    --bg-color:#5E7FC6;
+    --unfocus-item:#B5C8F0;
+    --focus-item:#4063AD;
+    --button-item:#264C9C;
+    --filler-color:#85A1DC; 
+
+    --num-items:#BEB8F1;
+    --none0:#938ADF;
+    --none1:#6F64CA;
+    --none2:#5246B3;
+    --important-item:#382CA2;
+
+}
+
+body{
+    /*margin: 3% 15%;*/
+    font-size: medium;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0px;
+    background-color: var(--filler-color);
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+div{
+    background-color: var(--bg-color);
+    /*padding: 8px 2rem;
+    border-radius: 10px;*/
+}
+
+input{
+    background-color: var(--none0);
+    border-radius: 7px;
+    font-size:medium;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+/*==================| CLASSes |==================*/
+.button_link{
+    background-color: var(--none0);
+    border-radius: 15px;
+    border: 2px solid var(--none2);
+    padding: 1px 8px 2px ;
+}
+
+.item_lang{
+    padding: 4px 4px 4px 4px;
+    height: 48px;
+    width: 48px;
+}
+
+.item_icon{
+    height: 28px;
+    width: 28px;
+    border: 3px solid var(--button-item);
+    border-radius: 40%;
+    background-color: var(--button-item);
+}
+
+.inline_elements{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.center_elements{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.center_titles{
+    text-align: center;
+}
+
+
+
+/*==================| IDs |==================*/
+
+#section_lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img_presentacion{
+    height: 128px;
+    width: 128px;
+}
+
+#img_copy{
+    height: 24px;
+    width: 24px;
+}
+
+
+
+/* ID DIV PRESENTACION*/
+
+
+
+
+
