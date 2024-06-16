@@ -8,7 +8,7 @@
 
     /* BASEPALLETE \\ BASE rgb=5E7FC6 \\ dist=22º \\ 3 elems*/
     --block-color:#5E7FC6;
-    --hover-item:#B5C8F0;
+    --hover-menu:#B5C8F0;
     --focus-item:#4063AD;
     --button-item:#264C9C;
     --bg-color:#85A1DC; 
@@ -31,7 +31,7 @@
     } 
 
     #div_navigation>span:hover{
-        background-color: var(--hover-item);  
+        background-color: var(--hover-menu);  
         color: var(--important-item);
     }
 
@@ -56,7 +56,7 @@
     } 
 
     #div_navigation>span{
-        border: 1px solid var(--hover-item); 
+        border: 1px solid var(--hover-menu); 
     }
     
     .div_coreblock{
